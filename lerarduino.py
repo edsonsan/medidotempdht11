@@ -21,8 +21,8 @@ while True:
         connection = pymysql.Connect(
             host= 'localhost',
             database = 'arduino',
-            user = 'gerente',
-            password = '******@02'
+            user = '',
+            password = ''
         )
         query = "INSERT INTO temperatura (temp) VALUES (%s)"
         cursor = connection.cursor()
