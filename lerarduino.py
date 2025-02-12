@@ -10,7 +10,6 @@ while True:
     #print(linharecebida[2:-5])
     print(linharecebida)
     linha=linharecebida[27:]
-    #linha = linha.replace('.',',')
     linha=linha.strip()
     print(linha)
     print("A linha tem",len(linha),"caracteres")
