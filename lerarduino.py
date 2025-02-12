@@ -23,7 +23,7 @@ while True:
             host= 'localhost',
             database = 'arduino',
             user = 'gerente',
-            password = 'Athenas@02'
+            password = '******@02'
         )
         query = "INSERT INTO temperatura (temp) VALUES (%s)"
         cursor = connection.cursor()
