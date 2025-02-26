@@ -13,8 +13,8 @@ Porta: /dev/ttyUSB0
 
 DHT dht(DHTPIN, DHTTYPE);
 
-const char* ssid = "FOX02";
-const char* password = "Athenas@02";
+const char* ssid = "nomedarede";
+const char* password = "senhadarede";
 String StringHTML;
 
 AsyncWebServer server(80);
